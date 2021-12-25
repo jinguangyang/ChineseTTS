@@ -1,4 +1,4 @@
-package com.air4.ttschinese;
+package com.air4.ttschineseDemo;
 
 import org.junit.Test;
 
