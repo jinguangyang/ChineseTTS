@@ -13,7 +13,7 @@ import com.air4.chinesetts.dispatcher.TtsStateDispatcher;
 import com.air4.chinesetts.tts.TtsManager;
 import com.air4.chinesetts.utils.ThreadPoolManager;
 
-public class MainActivity extends AppCompatActivity {
+public class DemoActivity extends AppCompatActivity {
     private static final String DEFAULT_INPUT_TEXT = "君不见,黄河之水天上来,奔流到海不复回,君不见,高堂明镜悲白发,朝如青丝暮成雪,人生得意须尽欢,莫使金樽空对月";
     private View speakBtn;
     private RadioGroup speedGroup;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_ttsdemo);
 
         TtsManager.getInstance().init(this);
 
