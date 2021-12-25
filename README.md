@@ -29,7 +29,7 @@ allprojects {
 
   dependencies {
 	        dependencies {
-            	        implementation 'com.github.jinguangyang:ChineseTTS:1.0'
+            	       implementation 'com.github.jinguangyang:ChineseTTS:1.0.0'
             	}
 }
 
