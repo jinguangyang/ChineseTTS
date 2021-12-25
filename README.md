@@ -35,10 +35,11 @@ allprojects {
 
 ```
 
+##
 ###初始化
 
 
-```
+```init
  TtsManager.getInstance().init(this);
 
         TtsStateDispatcher.getInstance().addListener(new OnTtsStateListener() {
@@ -57,20 +58,22 @@ allprojects {
         });
 ```
 
+## 
 
 ###开始语音
 
-```
+```speak
   TtsManager.getInstance().speak(inputText, speed, true);
 ```
 
+##
 
 ###结束语音
 
 
 
-```
-  TtsManager.getInstance().speak(inputText, speed, true);
+```stop
+    TtsManager.getInstance().stopTts());
 ```
 
 
