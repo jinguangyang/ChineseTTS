@@ -36,6 +36,8 @@ allprojects {
 ```
 
 ###初始化
+
+
 ```
  TtsManager.getInstance().init(this);
 
@@ -54,11 +56,19 @@ allprojects {
             }
         });
 ```
+
+
 ###开始语音
+
 ```
   TtsManager.getInstance().speak(inputText, speed, true);
 ```
+
+
 ###结束语音
+
+
+
 ```
   TtsManager.getInstance().speak(inputText, speed, true);
 ```
