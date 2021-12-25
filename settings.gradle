@@ -1,0 +1,3 @@
+rootProject.name='TTSChinese'
+include ':app'
+include ':chinesetts'
