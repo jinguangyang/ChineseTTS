@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.air4.ttschinese"
-        minSdkVersion 23
+        minSdkVersion 22
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
