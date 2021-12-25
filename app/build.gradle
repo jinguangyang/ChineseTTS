@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 
 android {
@@ -6,7 +6,6 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.air4.ttschinese"
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 1
